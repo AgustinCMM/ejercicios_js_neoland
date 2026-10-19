@@ -7,3 +7,11 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const img = document.createElement('img');
+const boton = document.getElementById('btn-invocar-imagen');
+const contenedor = document.getElementById('galeria');
+
+img.src = "https://picsum.photos/seed/neoland/400/300"
+boton.addEventListener('click', () => {
+   contenedor.appendChild(img);
+})
