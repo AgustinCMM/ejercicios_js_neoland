@@ -7,3 +7,18 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const texto = document.getElementById('texto-mover');
+const boton = document.getElementById('btn-centrar');
+let estaCentrado = false;
+
+boton.addEventListener("click", () => {
+  if (estaCentrado == false) {
+   texto.style.textAlign = "center";
+   boton.innerText = "Mover a la izquierda";
+   estaCentrado = true;
+  } else {
+   texto.style.textAlign = "left";
+   boton.innerText = "Mover al centro";
+   estaCentrado = false;
+  }
+});
