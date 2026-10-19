@@ -12,6 +12,8 @@
 /* MISIÓN DE CSS:
    Crea aquí la clase .clase-magica con color verde,
    borde rojo y letras grandes. */
+
+   
 .clase-magica {
   background-color: #1ebe1e;
   border: 3px solid #c20000;
