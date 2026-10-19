@@ -7,3 +7,9 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const enlace = document.getElementById('enlace-disney');
+const boton = document.getElementById('btn-enlace');
+
+boton.addEventListener('click', () => {
+   enlace.href = "https://www.wikipedia.org/";
+})
