@@ -7,3 +7,8 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const boton = document.getElementById('btn-fantasma');
+
+boton.addEventListener('click', () => {
+   boton.style.display = "none";
+})
