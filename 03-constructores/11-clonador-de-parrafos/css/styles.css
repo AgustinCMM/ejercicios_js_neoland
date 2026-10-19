@@ -6,4 +6,9 @@
   background-color: #eef3f8;
   border-left: 3px solid var(--acento);
   border-radius: 6px;
+  text-align: center;
+}
+
+#btn-clonar {
+  margin-top: 1rem;
 }
