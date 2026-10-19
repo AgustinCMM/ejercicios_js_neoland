@@ -1,6 +1,7 @@
 /* Misión 21 · El Modo Nocturno */
 
 .mini-pagina {
+  margin-bottom: 1rem;
   padding: 2rem 1.5rem;
   background-color: #fffdf8;
   border: 1px solid var(--linea);
@@ -20,3 +21,9 @@
 /* MISIÓN DE CSS:
    Crea aquí la clase .noche con fondo negro y letras blancas.
    Esa clase se va a aplicar sobre #pagina. */
+
+
+.noche {
+  background-color: #2d2a24;
+  color: #fffdf8;
+}
