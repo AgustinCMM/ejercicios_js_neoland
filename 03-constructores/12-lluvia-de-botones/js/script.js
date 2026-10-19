@@ -7,3 +7,9 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const boton = document.createElement('button');
+const contenedor = document.getElementById('zona-botones');
+
+boton.textContent = "Soy un botón creado desde JS"
+
+contenedor.appendChild(boton);
