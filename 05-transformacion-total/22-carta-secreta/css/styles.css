@@ -1,0 +1,18 @@
+/* Misión 22 · La carta secreta que aparece lentamente */
+
+.carta-secreta {
+  max-width: 480px;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+  background-color: #fff8e7;
+  border: 2px dashed #d9c38c;
+  border-radius: 14px;
+}
+
+.carta-secreta p {
+  margin: 0;
+}
+
+/* MISIÓN DE CSS:
+   1. Haz que la carta sea invisible, pero que siga ocupando su espacio.
+   2. Agrega una transición de 2 segundos para que el cambio sea lento. */

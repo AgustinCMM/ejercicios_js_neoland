@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 21 · El Modo Nocturno | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Transformación Total</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 21 · Transformación Total</p>
+      <p class="consigna__titulo">El Modo Nocturno</p>
+      <p class="reto"><strong>El reto:</strong> Crea una página con título y texto. En CSS, crea una clase llamada <code>.noche</code> que tenga fondo negro y letras blancas. Haz un botón que, al pulsarlo, le ponga la clase <code>.noche</code> a la página, y si lo vuelves a pulsar, se la quite. ¡Como apagar y prender la luz!</p>
+      <p class="nota-consigna">La mini página y el botón ya están creados. La clase <code>.noche</code> debés crearla vos en <code>css/styles.css</code> y aplicarla sobre el contenedor <code>#pagina</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Como aún no sabemos enseñarle a la computadora a decidir (“si está prendido, apágalo”), JavaScript tiene una palabra mágica que significa “alternar”. Investiga sobre <code>classList.toggle()</code>... ¡Hace todo el trabajo pesado de poner y quitar la clase por ti!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div id="pagina" class="mini-pagina">
+        <h2>Mi página de ejemplo</h2>
+        <p>Este es el texto que va a cambiar cuando active el modo nocturno. La clase <code>.noche</code> debe transformar esta mini página.</p>
+      </div>
+      <div class="centro">
+        <button id="btn-noche" type="button" class="boton-grande">🌙 Activar el modo nocturno</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

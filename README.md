@@ -1,6 +1,6 @@
 # Ejercicios de HTML, CSS y JavaScript · Clase 5
 
-20 misiones para practicar, organizadas en cuatro categorías. Cada ejercicio tiene su propia carpeta con los archivos ya vinculados y la consigna visible dentro del HTML.
+25 misiones para practicar, organizadas en cinco categorías. Cada ejercicio tiene su propia carpeta con los archivos ya vinculados y la consigna visible dentro del HTML.
 
 ## Cómo usar este entorno
 
@@ -32,7 +32,9 @@ Ejercicios/
 │   └── (5 carpetas de ejercicios)
 ├── 03-constructores/
 │   └── (5 carpetas de ejercicios)
-└── 04-super-reflejos/
+├── 04-super-reflejos/
+│   └── (5 carpetas de ejercicios)
+└── 05-transformacion-total/
     └── (5 carpetas de ejercicios)
 ```
 
@@ -71,3 +73,8 @@ numero-nombre-del-ejercicio/
 | 18 | El doble golpe | Súper Reflejos | [18-doble-golpe](04-super-reflejos/18-doble-golpe/index.html) |
 | 19 | El espía del teclado | Súper Reflejos | [19-espia-del-teclado](04-super-reflejos/19-espia-del-teclado/index.html) |
 | 20 | El camaleón de etiquetas | Súper Reflejos | [20-camaleon-de-etiquetas](04-super-reflejos/20-camaleon-de-etiquetas/index.html) |
+| 21 | El Modo Nocturno | Transformación Total | [21-modo-nocturno](05-transformacion-total/21-modo-nocturno/index.html) |
+| 22 | La carta secreta que aparece lentamente | Transformación Total | [22-carta-secreta](05-transformacion-total/22-carta-secreta/index.html) |
+| 23 | El probador de disfraces | Transformación Total | [23-probador-de-disfraces](05-transformacion-total/23-probador-de-disfraces/index.html) |
+| 24 | La paleta del pintor | Transformación Total | [24-paleta-del-pintor](05-transformacion-total/24-paleta-del-pintor/index.html) |
+| 25 | La caja que huye de ti | Transformación Total | [25-caja-que-huye](05-transformacion-total/25-caja-que-huye/index.html) |

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 25 · La caja que huye de ti | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Transformación Total</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 25 · Transformación Total</p>
+      <p class="consigna__titulo">La caja que huye de ti</p>
+      <p class="reto"><strong>El reto:</strong> Crea un botón muy bonito usando CSS (bordes redondeados, sombra, un color llamativo). En JS, haz que cuando el ratón pase por encima del botón (sin hacer clic), el botón cambie mágicamente a una posición distinta de la pantalla para que no lo puedan atrapar.</p>
+      <p class="nota-consigna">La zona de juego y el botón ya están creados. La zona tiene <code>position: relative</code> para que el botón pueda moverse dentro. En <code>css/styles.css</code> debés agregar <code>position: absolute</code> al botón y el estilo que quieras.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>En CSS, ponle al botón <code>position: absolute</code> para que pueda volar libre por la pantalla. En JS, cuando ocurra el evento del ratón encima, asígnale valores nuevos de distancia a <code>style.top</code> y <code>style.left</code> (por ejemplo: <code>"200px"</code>). ¡Tratarán de darle clic y se moverá!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div id="zona-huida" class="zona-huida">
+        <button id="btn-huir" type="button" class="boton-grande">🏃 ¡Atrápame si puedes!</button>
+      </div>
+      <p class="nota centro">Pasá el ratón por encima del botón, sin hacer clic.</p>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

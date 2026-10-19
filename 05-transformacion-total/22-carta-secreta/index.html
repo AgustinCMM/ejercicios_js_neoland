@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 22 · La carta secreta | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Transformación Total</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 22 · Transformación Total</p>
+      <p class="consigna__titulo">La carta secreta que aparece lentamente</p>
+      <p class="reto"><strong>El reto:</strong> Crea una caja (div) en HTML con un mensaje secreto. En CSS, haz que sea invisible (pero que siga ocupando su espacio) y ponle un efecto para que los cambios tarden 2 segundos en ocurrir. Con JS, haz que un botón la vuelva completamente visible.</p>
+      <p class="nota-consigna">La carta y el botón ya están creados. La parte de CSS (invisibilidad y transición de 2 segundos) la tenés que completar vos en <code>css/styles.css</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Para CSS, investiga la propiedad <code>opacity</code> (opacidad) y ponla en 0. Para que sea lento y mágico, busca en CSS la propiedad <code>transition</code>. En JS, solo tienes que cambiarle la opacidad a 1 usando la Fórmula de Asignación (<code>style</code>).</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <div id="carta" class="carta-secreta">
+          <p>💌 Querido alumno: has descubierto el mensaje secreto. Ahora la carta puede aparecer.</p>
+        </div>
+        <button id="btn-carta" type="button">Revelar la carta</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

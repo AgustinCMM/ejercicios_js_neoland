@@ -1,0 +1,17 @@
+/* Misión 25 · La caja que huye de ti */
+
+.zona-huida {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: #faf7ef;
+  border: 2px dashed var(--linea);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* MISIÓN DE CSS:
+   Dale al botón un estilo llamativo (bordes redondeados, sombra, color)
+   y ponle position: absolute para que top y left funcionen. */

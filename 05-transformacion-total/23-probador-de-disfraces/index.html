@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 23 · El probador de disfraces | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Transformación Total</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 23 · Transformación Total</p>
+      <p class="consigna__titulo">El probador de disfraces</p>
+      <p class="reto"><strong>El reto:</strong> Dibuja un cuadrado en tu HTML (será tu personaje). Crea 3 botones: “Fuego”, “Hielo” y “Bosque”. En tu CSS, prepara tres clases diferentes (ej: <code>.fuego</code> con fondo rojo y bordes naranjas, <code>.hielo</code> celeste y redondo...). Con JS, haz que cada botón le asigne su disfraz (clase) correspondiente al personaje.</p>
+      <p class="nota-consigna">El personaje y los tres botones ya están creados. Las clases <code>.fuego</code>, <code>.hielo</code> y <code>.bosque</code> debés crearlas vos en <code>css/styles.css</code>. El personaje mantiene su tamaño aunque cambies su <code>className</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Recuerda tener tu archivo <code>.css</code> bien conectado en el <code>&lt;head&gt;</code>. Luego, en JS, atrapa tu personaje y usa <code>className</code> para cambiarle el traje completo de golpe.</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <div id="personaje" class="personaje" role="img" aria-label="Personaje cuadrado para disfrazar"></div>
+      </div>
+      <div class="fila-botones">
+        <button id="btn-fuego" type="button">🔥 Fuego</button>
+        <button id="btn-hielo" type="button">❄️ Hielo</button>
+        <button id="btn-bosque" type="button">🌳 Bosque</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

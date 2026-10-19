@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 24 · La paleta del pintor | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Transformación Total</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 24 · Transformación Total</p>
+      <p class="consigna__titulo">La paleta del pintor</p>
+      <p class="reto"><strong>El reto:</strong> En HTML existe una etiqueta especial para elegir colores. Ponla en tu página junto con una caja grande y vacía (un div que será tu lienzo). Cada vez que elijas un color nuevo, la caja grande debe pintarse de ese color.</p>
+      <p class="nota-consigna">El selector de color y el lienzo ya están creados. El selector arranca con el color <code>#3f6f9c</code> y el lienzo está vacío.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Para el HTML, busca <code>&lt;input type="color"&gt;</code>. Para el JS, recuerda que las cajas de input guardan su información en una propiedad llamada <code>value</code>. ¡Usa un evento diferente al clic (busca el evento <code>input</code> o <code>change</code>) para robar ese color y ponérselo al fondo de tu caja!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="selector-color">
+        <label for="color-lienzo">Color del lienzo:</label>
+        <input id="color-lienzo" type="color" value="#3f6f9c">
+      </div>
+      <div id="lienzo" class="lienzo" aria-label="Lienzo para pintar"></div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
