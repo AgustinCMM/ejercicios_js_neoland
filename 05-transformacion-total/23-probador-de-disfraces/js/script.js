@@ -7,3 +7,17 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const btnFuego = document.getElementById("btn-fuego");
+const btnHielo = document.getElementById("btn-hielo");
+const btnBosque = document.getElementById("btn-bosque");
+const personaje = document.getElementById("personaje");
+
+btnFuego.addEventListener("click", () => {
+  personaje.className = "personaje fuego";
+});
+btnHielo.addEventListener("click", () => {
+  personaje.className = "personaje hielo";
+});
+btnBosque.addEventListener("click", () => {
+  personaje.className = "personaje bosque";
+});
