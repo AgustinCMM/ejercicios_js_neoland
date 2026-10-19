@@ -7,3 +7,13 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const input = document.getElementById('espia');
+
+function generarColor() {
+  const tono = Math.floor(Math.random() * 360);
+  return `hsl(${tono}, 70%, 50%)`;
+}
+
+input.addEventListener('keyup', () => {
+   document.body.style.backgroundColor = generarColor();
+})
