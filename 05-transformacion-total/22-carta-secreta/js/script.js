@@ -7,3 +7,9 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const boton = document.getElementById('btn-carta');
+const carta = document.getElementById('carta');
+
+boton.addEventListener('click', () => {
+   carta.style.opacity = "1";
+});

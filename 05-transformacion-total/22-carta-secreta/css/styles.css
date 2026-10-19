@@ -16,3 +16,9 @@
 /* MISIÓN DE CSS:
    1. Haz que la carta sea invisible, pero que siga ocupando su espacio.
    2. Agrega una transición de 2 segundos para que el cambio sea lento. */
+
+
+.carta-secreta {
+  opacity: 0;
+  transition: ease 3s;
+}
