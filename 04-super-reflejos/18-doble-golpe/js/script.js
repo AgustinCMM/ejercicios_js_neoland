@@ -7,3 +7,8 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const titulo = document.getElementById('titulo-duro');
+
+titulo.addEventListener('dblclick', () => {
+   titulo.textContent = "¡Me rompiste!";
+})
