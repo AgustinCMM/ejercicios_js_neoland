@@ -7,3 +7,9 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const parrafo = document.getElementById('mensaje-vacio');
+const boton = document.getElementById('btn-negrita');
+
+boton.addEventListener('click', () => {
+   parrafo.innerHTML = "<b>Hola</b>";
+})
