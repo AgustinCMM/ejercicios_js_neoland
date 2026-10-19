@@ -7,3 +7,11 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const h2Sorpresa = document.createElement('h2');
+const boton = document.getElementById('btn-sorpresa');
+const contenedor = document.getElementById('cajita');
+
+h2Sorpresa.textContent = "¡Sorpresa!"
+boton.addEventListener('click', () => {
+   contenedor.appendChild(h2Sorpresa);
+})
