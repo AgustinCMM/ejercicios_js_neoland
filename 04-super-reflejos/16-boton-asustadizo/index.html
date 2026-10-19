@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 16 · El botón asustadizo | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Súper Reflejos</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 16 · Súper Reflejos</p>
+      <p class="consigna__titulo">El botón asustadizo</p>
+      <p class="reto"><strong>El reto:</strong> Haz que un botón cambie de color a amarillo ¡sin hacerle clic! Solo con pasar el ratón por encima.</p>
+      <p class="nota-consigna">El botón ya está creado. El cambio debe ocurrir cuando el puntero entra en él, sin hacer clic.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Vas a usar addEventListener, pero la palabra mágica ya no es “click”. Busca en internet “evento de pasar el ratón por encima en JavaScript”.</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <button id="btn-asustadizo" type="button" class="boton-grande">😱 Pásame el ratón por encima</button>
+        <p class="nota">Sin hacer clic: solo acercando el puntero.</p>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

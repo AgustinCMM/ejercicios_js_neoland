@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 10 · El botón congelado | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Magia y Engaño</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 10 · Magia y Engaño</p>
+      <p class="consigna__titulo">El botón congelado</p>
+      <p class="reto"><strong>El reto:</strong> Haz que un botón se “apague” (que ya no se pueda hacer clic en él y se vea gris) después de pulsarlo una vez.</p>
+      <p class="nota-consigna">Los estilos para los botones desactivados ya están preparados en <code>assets/css/base.css</code>: en cuanto el botón quede desactivado, se verá gris automáticamente.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Investiga la propiedad disabled (desactivado) en JavaScript. ¡Acepta valores especiales, busca cuáles son!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <button id="btn-congelado" type="button" class="boton-grande">Solo puedes pulsarme una vez</button>
+        <p class="nota">Después del primer clic, el botón debe quedar desactivado y gris.</p>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* Misión 20 · El camaleón de etiquetas */
+
+#objetivo-disfraz {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #eef3f8;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+/* MISIÓN DE CSS:
+   Crea aquí la clase .clase-magica con color verde,
+   borde rojo y letras grandes. */

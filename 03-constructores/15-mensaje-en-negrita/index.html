@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 15 · El mensaje en negrita | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Constructores</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 15 · Constructores</p>
+      <p class="consigna__titulo">El mensaje en negrita</p>
+      <p class="reto"><strong>El reto:</strong> Cambia el contenido de un párrafo vacío para que diga “Hola” pero que esté en texto muy gordito y negro (negrita).</p>
+      <p class="nota-consigna">El párrafo existe pero está vacío. Al principio no se ve nada dentro de él.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Hasta ahora cambiaste textos normales, pero investiga qué es innerHTML. ¡Te permite inyectar etiquetas HTML como &lt;b&gt; o &lt;strong&gt; escritas entre las comillas!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <p id="mensaje-vacio" aria-live="polite"></p>
+      <div class="centro">
+        <button id="btn-negrita" type="button">Escribir “Hola” en negrita</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

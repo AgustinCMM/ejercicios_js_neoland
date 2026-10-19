@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 13 · El título impostor | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Constructores</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 13 · Constructores</p>
+      <p class="consigna__titulo">El título impostor</p>
+      <p class="reto"><strong>El reto:</strong> Crea desde JavaScript un título &lt;h2&gt; con el texto “¡Sorpresa!”, pero en lugar de pegarlo al final, debes meterlo dentro de una cajita div que ya existe en el HTML.</p>
+      <p class="nota-consigna">La cajita ya existe y tiene un identificador. El botón sirve para lanzar tu código cuando tú quieras.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Primero atrapa el div con la fórmula de búsqueda, y luego pégale el título adentro con tu acción favorita (appendChild).</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div id="cajita" class="cajita">
+        <p class="nota">Soy una cajita div que ya existe en el HTML. El título debe quedar dentro de mí.</p>
+      </div>
+      <div class="centro">
+        <button id="btn-sorpresa" type="button">Invocar el título sorpresa</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

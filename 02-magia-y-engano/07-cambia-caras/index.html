@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 07 · El cambia-caras | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Magia y Engaño</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 07 · Magia y Engaño</p>
+      <p class="consigna__titulo">El cambia-caras</p>
+      <p class="reto"><strong>El reto:</strong> Pon una imagen de un perrito. Al hacer clic en un botón, la imagen debe cambiar por la de un gatito.</p>
+      <p class="nota-consigna">La imagen del perrito ya está colocada. La del gatito está en <code>../../assets/img/gatito.svg</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>¿Recuerdas qué atributo de HTML usas para poner la ruta de una imagen? ¡En JavaScript puedes asignarle una nueva ruta a esa misma propiedad!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <figure class="marco-imagen">
+        <img id="mascota" src="../../assets/img/perrito.svg" alt="Ilustración de un perrito" width="320" height="240">
+        <figcaption id="pie-mascota">Ahora mismo: un perrito.</figcaption>
+      </figure>
+      <div class="centro">
+        <button id="btn-cambiar-imagen" type="button">Cambiar a gatito</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

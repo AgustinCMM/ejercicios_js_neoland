@@ -1,0 +1,11 @@
+/* Misión 13 · El título impostor */
+
+.cajita {
+  max-width: 480px;
+  margin: 0 auto 1.5rem;
+  padding: 1.25rem;
+  background-color: #faf7ef;
+  border: 2px dashed var(--linea);
+  border-radius: 14px;
+  text-align: center;
+}

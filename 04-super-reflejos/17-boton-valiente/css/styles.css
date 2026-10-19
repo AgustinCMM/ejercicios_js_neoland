@@ -1,0 +1,6 @@
+/* Misión 17 · El botón valiente */
+
+#btn-valiente {
+  background-color: #3f6f9c;
+  transition: background-color 0.15s ease;
+}

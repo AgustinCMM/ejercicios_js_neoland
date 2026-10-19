@@ -1,0 +1,5 @@
+/* Misión 16 · El botón asustadizo */
+
+#btn-asustadizo {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}

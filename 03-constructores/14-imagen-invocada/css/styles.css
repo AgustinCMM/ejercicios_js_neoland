@@ -1,0 +1,9 @@
+/* Misión 14 · La imagen invocada */
+
+#galeria img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+}

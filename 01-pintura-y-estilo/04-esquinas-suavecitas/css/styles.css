@@ -1,0 +1,9 @@
+/* Misión 04 · Esquinas suavecitas */
+
+.caja-cuadrada {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 1.5rem;
+  background-color: #d98c5f;
+  border: 3px solid #b46f45;
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="titulo-gatito">
+  <title id="titulo-gatito">Ilustración de un gatito</title>
+  <rect width="400" height="300" fill="#dce9f5"/>
+  <circle cx="336" cy="66" r="24" fill="#b9d2e8" opacity="0.8"/>
+  <circle cx="58" cy="232" r="34" fill="#b9d2e8" opacity="0.7"/>
+  <path d="M128 124 L120 48 L178 92 Z" fill="#8d8fa3"/>
+  <path d="M272 124 L280 48 L222 92 Z" fill="#8d8fa3"/>
+  <path d="M136 110 L132 66 L166 92 Z" fill="#f2b8c6"/>
+  <path d="M264 110 L268 66 L234 92 Z" fill="#f2b8c6"/>
+  <ellipse cx="200" cy="165" rx="82" ry="74" fill="#a7a9bd"/>
+  <ellipse cx="200" cy="198" rx="44" ry="32" fill="#e9edf5"/>
+  <ellipse cx="172" cy="150" rx="13" ry="17" fill="#3c3d4a"/>
+  <ellipse cx="228" cy="150" rx="13" ry="17" fill="#3c3d4a"/>
+  <circle cx="176" cy="144" r="4" fill="#ffffff"/>
+  <circle cx="232" cy="144" r="4" fill="#ffffff"/>
+  <path d="M194 178h12l-6 8Z" fill="#e88a9e"/>
+  <path d="M200 186c0 10-8 14-15 11M200 186c0 10 8 14 15 11" stroke="#3c3d4a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M165 178h-38M166 188l-38 8M235 178h38M234 188l38 8" stroke="#3c3d4a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="150" cy="196" r="9" fill="#f0aab8" opacity="0.55"/>
+  <circle cx="250" cy="196" r="9" fill="#f0aab8" opacity="0.55"/>
+</svg>

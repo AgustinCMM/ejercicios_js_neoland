@@ -1,0 +1,9 @@
+/* Misión 11 · El clonador de párrafos */
+
+#zona-clones p {
+  margin: 0.6rem 0;
+  padding: 0.7rem 0.9rem;
+  background-color: #eef3f8;
+  border-left: 3px solid var(--acento);
+  border-radius: 6px;
+}

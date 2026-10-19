@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 14 · La imagen invocada | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Constructores</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 14 · Constructores</p>
+      <p class="consigna__titulo">La imagen invocada</p>
+      <p class="reto"><strong>El reto:</strong> No pongas ninguna imagen en tu HTML. Solo con JavaScript, crea la imagen, ponle su ruta (su enlace de internet) y haz que aparezca en pantalla.</p>
+      <p class="nota-consigna">No hay ninguna imagen en el HTML. Puedes usar esta ruta de internet: <code>https://picsum.photos/seed/neoland/400/300</code>. Si no tienes internet, también sirve <code>../../assets/img/gatito.svg</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Combina document.createElement, le asignas su ruta, y luego lo pegas en el cuerpo de la página.</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <button id="btn-invocar-imagen" type="button">Invocar la imagen</button>
+      </div>
+      <div id="galeria" class="zona-salida" aria-live="polite">
+        <p class="nota">No hay ninguna imagen en el HTML. Debe aparecer aquí.</p>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

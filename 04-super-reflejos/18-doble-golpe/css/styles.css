@@ -1,0 +1,11 @@
+/* Misión 18 · El doble golpe */
+
+#titulo-duro {
+  cursor: pointer;
+  user-select: none;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  background-color: #eef3f8;
+  border-radius: 12px;
+  font-size: clamp(1.4rem, 5vw, 2.2rem);
+}

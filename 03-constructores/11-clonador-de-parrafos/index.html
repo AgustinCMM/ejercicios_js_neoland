@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 11 · El clonador de párrafos | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Constructores</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 11 · Constructores</p>
+      <p class="consigna__titulo">El clonador de párrafos</p>
+      <p class="reto"><strong>El reto:</strong> Cada vez que hagas clic en el botón principal, debe aparecer un párrafo nuevo al final de la página que diga “¡Me he clonado!”.</p>
+      <p class="nota-consigna">El botón y la zona de salida ya existen. Los clones deben ir apareciendo dentro de la zona de salida.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Necesitas la herramienta document.createElement para crear el párrafo de la nada.</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <button id="btn-clonar" type="button">Clonar un párrafo</button>
+      </div>
+      <div id="zona-clones" class="zona-salida" aria-live="polite">
+        <p class="nota">Los párrafos clonados aparecerán aquí abajo.</p>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

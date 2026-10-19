@@ -1,0 +1,288 @@
+/* ==========================================================
+   BASE COMÚN · Ejercicios de HTML, CSS y JS
+   ----------------------------------------------------------
+   Este archivo lo comparten todos los ejercicios.
+   No necesitas modificarlo: cada misión tiene su propio
+   archivo css/styles.css para los estilos del ejercicio.
+   ========================================================== */
+
+:root {
+  --fondo-pagina: #f4f1ea;
+  --superficie: #fffdf8;
+  --tinta: #2d2a24;
+  --tinta-suave: #6b6559;
+  --linea: #d9d2c3;
+  --acento: #3f6f9c;
+  --acento-oscuro: #2e5377;
+  --sombra: 0 10px 30px rgba(45, 42, 36, 0.08);
+  --radio: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--fondo-pagina);
+  color: var(--tinta);
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+/* ----------------------------------------------------------
+   Barra superior
+   ---------------------------------------------------------- */
+
+.barra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--linea);
+  background-color: rgba(255, 253, 248, 0.82);
+  backdrop-filter: blur(8px);
+}
+
+.volver {
+  color: var(--acento);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.volver:hover {
+  text-decoration: underline;
+}
+
+.barra__etiqueta {
+  color: var(--tinta-suave);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------------------------
+   Contenedor y consigna
+   ---------------------------------------------------------- */
+
+.contenedor {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.consigna {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background-color: var(--superficie);
+  border: 1px solid var(--linea);
+  border-top: 6px solid var(--acento);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.etiqueta {
+  margin: 0 0 0.4rem;
+  color: var(--acento);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.consigna__titulo {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.6rem, 4vw, 2.3rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.reto {
+  margin: 0 0 0.9rem;
+  font-size: 1.05rem;
+}
+
+.nota-consigna {
+  margin: 0.9rem 0 0;
+  padding: 0.75rem 0.9rem;
+  background-color: #f3efe5;
+  border-left: 3px solid var(--acento);
+  border-radius: 6px;
+  color: var(--tinta-suave);
+  font-size: 0.92rem;
+}
+
+.consigna code,
+.pie code,
+.escenario code {
+  padding: 0.1rem 0.35rem;
+  background-color: #ece6d9;
+  border-radius: 5px;
+  color: #4b4234;
+  font-family: "Cascadia Code", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.pista {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--linea);
+}
+
+.pista summary {
+  cursor: pointer;
+  color: var(--acento-oscuro);
+  font-weight: 700;
+}
+
+.pista summary:hover {
+  text-decoration: underline;
+}
+
+.pista p {
+  margin: 0.6rem 0 0;
+  color: var(--tinta-suave);
+}
+
+/* ----------------------------------------------------------
+   Zona de trabajo
+   ---------------------------------------------------------- */
+
+.escenario {
+  min-height: 220px;
+  margin-top: 1.5rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background-color: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.escenario__titulo {
+  margin: 0 0 1.25rem;
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.escenario__titulo::before {
+  content: "▸ ";
+  color: var(--acento);
+}
+
+/* ----------------------------------------------------------
+   Controles base
+   ---------------------------------------------------------- */
+
+button {
+  padding: 0.7rem 1.15rem;
+  border: 0;
+  border-radius: 10px;
+  background-color: var(--acento);
+  box-shadow: 0 3px 0 var(--acento-oscuro);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 var(--acento-oscuro);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--acento-oscuro);
+}
+
+button:focus-visible {
+  outline: 3px solid #e0a83c;
+  outline-offset: 3px;
+}
+
+button:disabled {
+  background-color: #b9b4a8;
+  box-shadow: 0 3px 0 #9c978c;
+  color: #6f6a5f;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.boton-grande {
+  padding: 0.9rem 1.5rem;
+  font-size: 1.05rem;
+}
+
+/* ----------------------------------------------------------
+   Utilidades
+   ---------------------------------------------------------- */
+
+.centro {
+  text-align: center;
+}
+
+.nota {
+  color: var(--tinta-suave);
+  font-size: 0.9rem;
+}
+
+.zona-salida {
+  min-height: 80px;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #faf7ef;
+  border: 1px dashed var(--linea);
+  border-radius: 12px;
+}
+
+.zona-salida > :first-child {
+  margin-top: 0;
+}
+
+.zona-salida > :last-child {
+  margin-bottom: 0;
+}
+
+.formulario {
+  display: grid;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.formulario label {
+  font-weight: 700;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background-color: #fff;
+  border: 2px solid var(--linea);
+  border-radius: 10px;
+  color: var(--tinta);
+  font: inherit;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: var(--acento);
+}
+
+.pie {
+  margin-top: 1.25rem;
+  color: var(--tinta-suave);
+  font-size: 0.85rem;
+  text-align: center;
+}

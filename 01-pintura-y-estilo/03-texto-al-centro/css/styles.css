@@ -1,0 +1,9 @@
+/* Misión 03 · El texto que se mueve */
+
+#texto-mover {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #eef3f8;
+  border-left: 4px solid var(--acento);
+  border-radius: 8px;
+}

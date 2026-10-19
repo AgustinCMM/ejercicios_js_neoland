@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 09 · La caja pre-escrita | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Magia y Engaño</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 09 · Magia y Engaño</p>
+      <p class="consigna__titulo">La caja pre-escrita</p>
+      <p class="reto"><strong>El reto:</strong> Crea una caja donde la gente escribe su nombre (&lt;input&gt;). Al darle a un botón, la caja debe rellenarse sola con el texto “¡Hola, soy un robot!”.</p>
+      <p class="nota-consigna">La caja de texto ya está en el HTML. El botón debe escribir dentro de ella.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Las cajas de texto guardan su información en una propiedad llamada “valor” (value en inglés).</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="formulario">
+        <label for="nombre">Tu nombre:</label>
+        <input id="nombre" type="text" placeholder="Escribe aquí tu nombre..." autocomplete="off">
+        <button id="btn-robot" type="button">Rellenar como robot</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

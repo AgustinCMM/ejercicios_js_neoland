@@ -1,0 +1,161 @@
+/* ==========================================================
+   ESTILOS DEL MENÚ PRINCIPAL
+   ========================================================== */
+
+.inicio {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.portada {
+  max-width: 760px;
+}
+
+.portada__emoji {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.portada h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.08;
+}
+
+.portada__sub {
+  margin: 0;
+  color: var(--tinta-suave);
+  font-size: 1.1rem;
+}
+
+.guia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+
+.guia__item {
+  padding: 1rem 1.1rem;
+  background-color: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 14px;
+}
+
+.guia__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-bottom: 0.45rem;
+  background-color: var(--acento);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.guia__item p {
+  margin: 0;
+  color: var(--tinta-suave);
+  font-size: 0.92rem;
+}
+
+.guia__item strong {
+  color: var(--tinta);
+}
+
+.guia__item code {
+  padding: 0.1rem 0.3rem;
+  background-color: #ece6d9;
+  border-radius: 5px;
+  font-family: "Cascadia Code", Consolas, monospace;
+  font-size: 0.88em;
+}
+
+.grupo {
+  margin-top: 2.75rem;
+}
+
+.grupo__cabecera {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.grupo__emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  background-color: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 12px;
+  font-size: 1.4rem;
+}
+
+.grupo h2 {
+  margin: 0;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.grupo p {
+  margin: 0.2rem 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.92rem;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 1rem 1.1rem;
+  background-color: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 14px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-3px);
+  border-color: var(--acento);
+  box-shadow: var(--sombra);
+}
+
+.tarjeta__num {
+  color: var(--acento);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.tarjeta__titulo {
+  font-weight: 800;
+}
+
+.tarjeta__desc {
+  color: var(--tinta-suave);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.pie-inicio {
+  margin-top: 3rem;
+  color: var(--tinta-suave);
+  font-size: 0.85rem;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 17 · El botón valiente | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Súper Reflejos</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 17 · Súper Reflejos</p>
+      <p class="consigna__titulo">El botón valiente</p>
+      <p class="reto"><strong>El reto:</strong> El complemento de la misión anterior. Cuando quites el ratón de encima del botón, este debe volver a su color original.</p>
+      <p class="nota-consigna">El color original del botón es <code>#3f6f9c</code>. Al salir el ratón debe recuperarlo.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Busca cuál es el evento hermano para cuando el ratón “sale” o “se va” del elemento.</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <div class="centro">
+        <button id="btn-valiente" type="button" class="boton-grande">🦁 Quítame el ratón y vuelvo</button>
+        <p class="nota">Color original: <code>#3f6f9c</code>. Al salir el ratón debe recuperarlo.</p>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

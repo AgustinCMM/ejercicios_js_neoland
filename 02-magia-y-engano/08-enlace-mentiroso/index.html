@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misión 08 · El enlace mentiroso | Ejercicios JS</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="barra">
+    <a class="volver" href="../../index.html">← Volver al menú</a>
+    <span class="barra__etiqueta">Magia y Engaño</span>
+  </nav>
+
+  <main class="contenedor">
+    <header class="consigna">
+      <p class="etiqueta">Misión 08 · Magia y Engaño</p>
+      <p class="consigna__titulo">El enlace mentiroso</p>
+      <p class="reto"><strong>El reto:</strong> Crea un enlace que diga “Ir a Disney”. Pero al hacer clic en un botón mágico, si alguien pulsa el enlace, lo llevará a Wikipedia.</p>
+      <p class="nota-consigna">El enlace ya apunta a Disney. El destino secreto es <code>https://es.wikipedia.org</code>.</p>
+      <details class="pista">
+        <summary>🕵️ Pista de detective</summary>
+        <p>Los enlaces usan el atributo href para saber a dónde ir. ¡Cámbialo con la fórmula de asignación!</p>
+      </details>
+    </header>
+
+    <section class="escenario" aria-labelledby="zona-trabajo">
+      <p id="zona-trabajo" class="escenario__titulo">Zona de trabajo</p>
+      <p class="centro">Enlace actual: <a id="enlace-disney" href="https://www.disney.com" target="_blank" rel="noopener noreferrer">Ir a Disney</a></p>
+      <div class="centro">
+        <button id="btn-enlace" type="button">Hacer que el enlace mienta</button>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <p>Archivos de este ejercicio: <code>index.html</code> · <code>css/styles.css</code> · <code>js/script.js</code></p>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* Misión 02 · Letras gigantes */
+
+#titulo-gigante {
+  margin: 1rem 0 1.75rem;
+  transition: font-size 0.2s ease;
+}
