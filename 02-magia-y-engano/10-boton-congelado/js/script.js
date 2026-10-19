@@ -7,3 +7,8 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const boton = document.getElementById('btn-congelado');
+
+boton.addEventListener('click', () => {
+   boton.disabled = true;
+})
