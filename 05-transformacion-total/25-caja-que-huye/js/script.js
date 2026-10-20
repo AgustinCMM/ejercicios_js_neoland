@@ -19,4 +19,3 @@ function moverBoton() {
 }
 
 boton.addEventListener("mousemove", moverBoton);
-boton.addEventListener("mousedown", moverBoton);
