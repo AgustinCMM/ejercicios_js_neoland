@@ -7,3 +7,9 @@
    ============================================================ */
 
 // TU CÓDIGO AQUÍ
+const color = document.getElementById('color-lienzo');
+const lienzo = document.getElementById('lienzo');
+
+color.addEventListener('input', () => {
+   lienzo.style.backgroundColor = color.value;
+})
